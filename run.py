@@ -83,7 +83,7 @@ def update_worksheet(data, worksheet):
     print(f"Updating {worksheet} worksheet...\n")
     worksheet_to_update = SHEET.worksheet(worksheet)
     worksheet_to_update.append_row(data)
-    print(f"{worksheet} successfully updated.\n")
+    print(f"{worksheet} worksheet successfully updated.\n")
 
 
 
